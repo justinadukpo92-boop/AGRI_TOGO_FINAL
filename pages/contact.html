@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGRI-TOGO | Contact</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <div class="logo">
+            <img src="../images/logo.png" alt="Logo AGRI TOGO">
+        </div>
+
+        <nav>
+
+            <ul id="menu">
+
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="apropos.html" class="active">À propos</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="actualités.html">Actualités</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+            <div id="hamburger">
+                ☰
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    
+     <!-- ========== PAGE HERO ========== -->
+<section class="page-hero">
+    <div class="container">
+        <h1>Contactez-nous</h1>
+        <p>Bienvenue sur notre page de contact AGRI-TOGO !</p>
+    </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<main class="contact-main">
+    <div class="container contact-container">
+
+        <!-- ===== COORDONNÉES (au-dessus du formulaire) ===== -->
+        <div class="contact-infos">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span><strong>Adresse Email :</strong> contact@agri-togo.tg</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span><strong>Téléphoneéphone :</strong> +228 96 38 14 96  / +228 97 78 27 86</span>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span><strong>Adresse :</strong> Lomé, Togo – Quartier administratif</span>
+            </div>
+            <div class="contact-item contact-social">
+                <i class="fas fa-share-alt"></i>
+                <span><strong>Réseaux sociaux :</strong></span>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== FORMULAIRE ===== -->
+        <div class="contact-form-container">
+            <h2>Envoyez-nous un message</h2>
+            <form id="contactForm" class="contact-form" novalidate>
+
+                <!-- Ligne 1 : Nom + Prénom -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="lastname">Nom</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Votre nom" required />
+                        <span class="error-msg" id="lastnameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstname">Prénom</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Votre prénom" required />
+                        <span class="error-msg" id="firstnameError"></span>
+                    </div>
+                </div>
+
+                <!-- Ligne 2 : Email + Sujet -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.tg" required />
+                        <span class="error-msg" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" placeholder="Objet de votre message" required />
+                        <span class="error-msg" id="subjectError"></span>
+                    </div>
+                </div>
+
+                <!-- Ligne 3 : Message (pleine largeur) -->
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+                    <span class="error-msg" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    Envoyer <i class="fas fa-paper-plane"></i>
+                </button>
+
+                <div id="formSuccess" class="form-success" style="display:none;">
+                    <i class="fas fa-check-circle"></i> 
+                    Votre message a bien été envoyé.
+                </div>
+            </form>
+        </div>
+
+        <!-- ===== PLAN GOOGLE MAPS (après le bouton envoyer, avant le footer) ===== -->
+        <div class="contact-map">
+            <h3>Retrouvez-nous</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.367889437472!2d1.16484575!3d6.12602825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10215e1e05e7f0d1%3A0x8b9e8b9e8b9e8b9e!2sLom%C3%A9%2C%20Togo!5e0!3m2!1sfr!2sfr!4v1712345678901!5m2!1sfr!2sfr" 
+                width="100%" 
+                height="250" 
+                style="border:0; border-radius:12px;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </div>
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+    <footer>
+        <div class="footer-container">
+
+            <!-- Bloc présentation -->
+            <div class="footer-section">
+                <h3>AGRI-TOGO</h3>
+                <p>
+                    AGRI-TOGO est un fournisseur spécialisé dans la production, la collecte,
+                    la transformation et la commercialisation de produits agricoles brutes,
+                    la logistique et le transport des marchandises, la fourniture des pièces
+                    de rechange industrielles et l’appui technique aux agriculteurs.
+                </p>
+            </div>
+
+            <!-- Bloc réseaux sociaux -->
+            <div class="footer-section">
+                <h3>Suivez-nous</h3>
+                <ul class="socials">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+
+            <!-- Bloc liens utiles -->
+            <div class="footer-section">
+                <h3>Liens utiles</h3>
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Nos Activités</a></li>
+                    <li><a href="#">Nous rejoindre</a></li>
+                    <li><a href="#">Actualités</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Bloc contact -->
+            <div class="footer-section">
+                <h3>Nous joindre</h3>
+                <p>1258 Rue 161 Gbonvié, 300 m du Bd. Eyadéma<br>
+                    14 BP 79 Lomé, Togo</p>
+                <p>Email : <a href="mailto:commercial@AGRI-TOGO.tg">commercial@AGRI-TOGO.tg</a></p>
+                <p>Téléphone : <a href="tel:+22870523754">+228 96 38 14 96  / +228 97 78 27 86</a></p>
+                <p>Mentions Légales</p>
+            </div>
+
+            <!-- Bloc horaires -->
+            <div class="footer-section">
+                <h3>Horaires d’ouverture</h3>
+                <p>Lundi – Vendredi : 8h00 – 17h00<br>
+                    Samedi : 9h00 – 13h00<br>
+                    Dimanche : Fermé</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright ©2026 -2027 AGRI-TOGO. Tous droits réservés | Développé par Justin & Gloria</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
