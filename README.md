@@ -81,7 +81,7 @@ Ce site étant **100% statique** (HTML/CSS/JS), aucune installation complexe n'e
 
 <img src="images/Gloria.png" alt="gloria" width="80">  NOUDJRODOU Hulda Gloria
 
-<img src="images/Kodzovi.png" alt="Kodzovi" width="80"> ADUKPO Kodzovi
+<img src="images/kodzovi.png" alt="Kodzovi" width="80"> ADUKPO Kodzovi
 
 🎓 Encadrement
 
