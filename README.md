@@ -32,23 +32,59 @@ Le site est composé de **5 pages HTML** distinctes, reliées entre elles par un
 | `pages/contact.html` | **Contact** | Coordonnées directes (email, téléphone, adresse physique à Lomé). |
 
 ### Arborescence des fichiers
-AGRI_TOGO_FINAL/
-├── index.html
-├── pages/
-│ ├── apropos.html
-│ ├── produits.html
-│ ├── actualités.html
-│ └── contact.html
-├── css/
-│ └── style.css
-├── js/
-│ └── script.js
-├── images/
-│ ├── logo.png
-│ ├── gari.jpg
-│ ├── formation.jpg
-│ └── foire.jpg
-└── README.md
+
+AGRI_TOGO_FINAL<br>
+│   index.html<br>
+│   README.md<br>
+│
+├───css<br>
+│       style.css<br>
+│
+├───images<br>
+│       agriculture.jpg<br>
+│       akouvi.jpg<br>
+│       ananas.jpg<br>
+│       banner.jpg<br>
+│       contactez-nous.jfif<br>
+│       cooperative.jpg<br>
+│       farine.jpg<br>
+│       Foire 1.jpg<br>
+│       Foire 2.jpg<br>
+│       Foire 3.jpg<br>
+│       foire.jpg<br>
+│       formateur.png<br>
+│       Formation 1.jfif<br>
+│       Formation 2.png<br>
+│       Formation 3.jfif<br>
+│       formation.jpg<br>
+│       gari.jpg<br>
+│       garii.jpg<br>
+│       Gloria.png<br>
+│       jus ananas.jpg<br>
+│       kodzovi.png<br>
+│       komla.jpg<br>
+│       logo.png<br>
+│       mais.jpg<br>
+│       manioc.jpg<br>
+│       maritime.jpg<br>
+│       mensah.jpg<br>
+│       poule.jpg<br>
+│       produit.jpg<br>
+│       Recolte 1.png<br>
+│       Recolte 2.png<br>
+│       Recolte 3.png<br>
+│       sac.jpg<br>
+│       sommes.jpg<br>
+│       transport.jpg<br>
+│
+├───js<br>
+│       script.js<br>
+│
+└───pages<br>
+        actualités.html<br>
+        apropos.html<br>
+        contact.html<br>
+        produits.html<br>
 
 
 
