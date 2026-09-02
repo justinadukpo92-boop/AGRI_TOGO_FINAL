@@ -94,6 +94,7 @@ nav ul li a:hover {
     justify-content: space-between;
     gap: 20px;
     margin-bottom: 60px;
+    
 }
 
 .bloc {
@@ -166,12 +167,19 @@ nav ul li a:hover {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
 }
 
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
 .card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    transition: transform 0.3s ease;
 }
 
 .card h3 {
@@ -200,6 +208,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footer-section {
@@ -209,8 +218,22 @@ footer {
 
 .footer-section h3 {
     color: #ffffff;
-    /* vert clair agricole */
     margin-bottom: 10px;
+}
+.footer-section h3 img {
+height: 70px;
+    vertical-align: middle;
+}
+
+.footer-brand h3 {
+    line-height: 1;
+}
+
+.footer-brand img {
+    display: block;
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
 }
 
 .footer-section p,
@@ -240,8 +263,8 @@ footer {
 }
 
 .socials li {
-    display: inline-block;
-    margin-right: 10px;
+    display: block;
+    margin-right: 20px;
 }
 
 .footer-bottom {
